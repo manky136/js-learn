@@ -3,9 +3,9 @@
 
 (function chai(){
     console.log(`DB CONNECTED`);
-})()
+})();
 
-( function aucode() {
-    console.log(`DB CONNECTED TWO`);
+( (name) => {
+    console.log(`DB CONNECTED TWO ${name}`);
 
-}) ()
+}) ("manky") 
